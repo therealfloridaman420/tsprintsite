@@ -362,3 +362,7 @@ fixed tile grid box marker thing not allowing block placing/deleting
 fixed second coin in "Base After Base" being impossible
 fixed custom song adding thing not pulling from the right place (meaning song ids above 20 won't load)
 added gif to loading screen
+
+---1.02_03--- (10/12/2024)
+made minor changes to the info menus for a couple levels
+fixed some bugs in "Jumper" that made the level a lot harder than it should have been
