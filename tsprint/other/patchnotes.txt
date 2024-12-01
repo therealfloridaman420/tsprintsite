@@ -368,3 +368,52 @@ fixed some bugs in "Jumper" that made the level a lot harder than it should have
 
 --1.02_04-- (10/22/2024)
 fixed statistics information not saving to account? (don't worry the icons/coins were saving)
+
+---1.1--- (12/01/2024)
+new level "Time Machine", 9* Insane
+added some new editor objects
+maybe fixed practice music sync just being bad? (also might work for custom songs now? not like you can use it)
+made some changes to slab blocks (not as cool looking, but at least they work and aren't super buggy anymore)
+disabled practice mode until more fixes can be added (it was already barely usable before so this doesn't change much)
+object count is now displayed in editor (limit is still by size, objects are for show only)
+object count is now displayed in level extras menu
+changed how custom songs are loaded to allow them to sync in practice (and simplify the download process)
+fixed statistics STILL not saving, hopefully this time it works (icons and saved levels are save, just recomplete the main levels and coins, sorry chat)
+brought back right-click to delete as a setting (it was how tiles were deleted before the editor overhaul of b0.6)
+fixed demon achivement being given every time a level is beaten
+levels can now have descriptions (up to 160 characters)
+improved game proformance by a moderate amount
+fixed being able to click space while in settings to leave settings stuff on top of levels
+added arrows for navigation in icon selector
+added mirror portal (visually flips screen, time to flip can be changed)
+moved a name in the credits
+chhanged box for song in saved level play screen to be slightly transparent
+improved the editor tile overlay thingy
+added "Freaky Mode"
+fixed icon from beating "Jumper" not being perfectly square
+secret coins are now displayed in the pause menu of levels (also works for custom levels, but they're just for show there)
+changed saved levels menu to show level creator instead of level song
+fixed practice checkpoint giving option in editor to toggle player trail (not even in the game yet?) upon editing in editor
+fixed remaining bugs with editor button clone system stopping player from placing/deleting within 20 units of the center of the screen
+player can no longer add an underscore into limited text fields
+fixed editor buttons being very low quality
+made most text in the settings menu smaller
+added ability to toggle ship in icon selector by tapping near the icon at the top
+remade every single trigger and portal to work better with mirror (uses the "used objects" list like pads and orbs)
+changed ship texture to re-add the gradiant
+slightly changed title screen to stop it from breaking on mobile
+fixed text for star suggestion in level settings saying range of "1 to 20" instead of "1 to 25"
+loading save data now automatically adds missing percentage data
+fixed ship being on top of colour picker menu in icon select
+added some more details to the window titlebar (level name/author in editor and playing mode, and attempts for playing mode)
+added option to download songs from original locations (ng for main songs, yt for custom)
+added option in settings to show framerate
+tiles are no longer deleted after beating levels (meaning you can see an endscreen now)
+made edits to some of the difficulty faces
+added song offset option in level menu (works for main and custom songs, negative numbers are a little buggy, so use caution)
+level editor/copy access can now be locked behind a password
+fixed 25 secret coin icon being off-centered
+added a white line to the end goal
+added 2nd page to editor tile select
+added setting for click sounds
+2 new icons
