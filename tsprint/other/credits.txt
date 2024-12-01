@@ -15,13 +15,17 @@ Tile Textures - RobTop / @jamZgator / me
 @RCP_478 (YouTube)
 @theyluvfazo (idk)
 @jamZgator (Newgrounds)
-@alwaysmade2blade (YouTube)
 
 ---Open Beta Testers (b0.5 to b0.9)---
 @Atherist
 @487689samxx
+@alwaysmade2blade (YouTube)
+
+---Special Thanks---
+without @nikolyas, this would've been datamined, so thanks!
 
 --Audio--
+Every single custom song - @jamzgator
 Geometry Dash Title Theme - RobTop
 SFX - RobTop
 Stereo Madness - ForeverBound
@@ -32,3 +36,4 @@ Dry Out - DJVI
 Base after Base - DJVI
 Can't Let Go - DJVI
 Jumper - Waterflame
+Time Machine - Waterflame
