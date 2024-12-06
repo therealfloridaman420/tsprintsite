@@ -1,7 +1,6 @@
 Trigonometry Sprint by Oofio Software (Online Credits)
 
---- Credits ---
-OG Game That I Stole - RobTop
+Original Game That I Stole - RobTop
 
 --Code--
 everything - me
