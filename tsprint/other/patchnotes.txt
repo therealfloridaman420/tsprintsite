@@ -417,3 +417,26 @@ added a white line to the end goal
 added 2nd page to editor tile select
 added setting for click sounds
 2 new icons
+
+---1.11--- (12/05/2024)
+fixed a bug in "Time Machine" that made a certain click almost impossible
+changed all tile textures to be vectors instead of bitmaps (meant to do before but me forgor)
+background of editor buttons is no longer black to make certain tiles more visible
+changed texture of tile transition trigger
+added screen asking if the player wants to load their save if no data has been added yet
+added editor option to autosave level (0=disable, range 1 to 20 minutes)
+moved level settings menu out of pause menu to make it easier to find
+changed how editor action marker works to optimize the game a little
+fixed account button being clickable in places other than the title screen
+removed unused images from game files
+added a bunch of new settings
+moved online levels button to another location
+added setting to disable everything related to mobile controls
+added settings menu for a list of custom songs downloaded
+added more options for custom songs, as well as remixes of all the main songs (you're welcome youtube people)
+seperated out credits from information menu
+fixed capital letters causing some goofy bugs with text engine
+fixed second coin in base after base for the 52nd time
+fixed some minor bugs with a couple settings saving, but not correctly?
+attempted to fix some issues with multiple buttons being clickable in one click in level header menu
+account data now saves automatically when saving a level in the editor (can be disabled in settings)
