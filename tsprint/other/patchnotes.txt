@@ -440,3 +440,9 @@ fixed second coin in base after base for the 52nd time
 fixed some minor bugs with a couple settings saving, but not correctly?
 attempted to fix some issues with multiple buttons being clickable in one click in level header menu
 account data now saves automatically when saving a level in the editor (can be disabled in settings)
+
+---1.11_01--- (12/14/2024)
+fixed a bunch of clicks in "Base After Base" that were supposed to be bufferable
+fixed a serious bug that made levels sometimes just not save to your device?
+fixed "Sync Account and Level Saving" setting making game lag very very bad when in use
+removed level saving confirmation (who would even say no?)
