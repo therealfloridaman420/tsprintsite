@@ -446,3 +446,21 @@ fixed a bunch of clicks in "Base After Base" that were supposed to be bufferable
 fixed a serious bug that made levels sometimes just not save to your device?
 fixed "Sync Account and Level Saving" setting making game lag very very bad when in use
 removed level saving confirmation (who would even say no?)
+
+---1.12--- (01/03/2025)
+added a button in the editor to teleport to certain level locations if they exist (Level Start, All 3 Coins, Level End)
+changed how info menus work to allow for more info menus in different places in the future
+changed the colours of variables, lists, and ask prompts
+added some dropdown menus for the old y/n ask prompts and the tile transition trigger
+fixed a line of text with the mirror portal saying colour input
+made mobile camera buttons in the editor larger
+changed "enable mobile buttons" setting to "enable camera buttons" as that's probably more useful with the larger buttons
+added sound effects to the editor (disable in settings, adding more later)
+changed font size of the mobile button toggle in the editor
+added setting to fix text blocking buttons from being clicked (off by default)
+moved editor log to be right above tile select
+editor log now shows tile id when selecting a tile
+made the slab physics better than they ever were before 1.1
+made "Freaky Mode" even more freaky than before
+fixed other random bugs (still not the editor screen center bug)
+added page counter to tile select in editor
