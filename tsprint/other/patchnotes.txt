@@ -464,3 +464,6 @@ made the slab physics better than they ever were before 1.1
 made "Freaky Mode" even more freaky than before
 fixed other random bugs (still not the editor screen center bug)
 added page counter to tile select in editor
+
+---1.12_01--- (01/09/2025)
+fixed a bug causing level descriptions being blank to destroy parts of levels
