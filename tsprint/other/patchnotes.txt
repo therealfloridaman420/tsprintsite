@@ -467,3 +467,9 @@ added page counter to tile select in editor
 
 ---1.12_01--- (01/09/2025)
 fixed a bug causing level descriptions being blank to destroy parts of levels
+
+---1.12_02--- (01/22/2025)
+fixed achivement text not hiding if level is exited too quickly
+added text warning the built-in level saving system is broken and to not use it
+fixed ram save being clickable when no level is in it
+added level length to editor pause menu
