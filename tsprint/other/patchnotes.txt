@@ -473,3 +473,10 @@ fixed achivement text not hiding if level is exited too quickly
 added text warning the built-in level saving system is broken and to not use it
 fixed ram save being clickable when no level is in it
 added level length to editor pause menu
+
+---1.12_03--- (01/28/2025)
+attempted to fix saved levels not saving for the 500th time
+slightly changed texture for checkbox
+
+---1.12_04--- (02/14/2025)
+​fixed objects not saving from the editor after reloading
