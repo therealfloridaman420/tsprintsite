@@ -1,1 +1,11 @@
-you can't sue me (or else you aren't a sigma)
+-Terms of Service-
+
+1. Oofio Software has the right to collect and store the IPv4 address of the user, this will be used in multiple places within the project.
+
+2. Any user caught attempting to modify or change any aspects of the project internally that cannot be modified without accessing the files can be banned.
+
+3. If a user attempts to upload content to the game servers that could not be made through the game itself, the user will be banned.
+
+4. If a user makes more than a singular account for any reason (although especially for ban evasion), then Oofio Software has the right to ban via IP instead of banning an account directly.
+
+5. If a user believes they were unfairly banned, ban appeals can be sent by any method found within the game or on the website. If no response is given within a reasonable amount of time (within 2 weeks) then the user is allowed to attempt contact by more than one method.
