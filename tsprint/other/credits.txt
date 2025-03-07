@@ -7,8 +7,9 @@ everything - me
 
 --Graphics--
 Menu Textures - RobTop / me
-Cube Vectors - @jamZgator / me
-Tile Textures - RobTop / @jamZgator / me
+Cube Vectors - @jamZgator / me / @Rocketmix
+Tile Textures - @jamZgator / me
+Vectorized Font Characters - @Nyzonix
 
 --Closed Beta Testers (pre b0.5)--
 @RCP_478 (YouTube)
@@ -36,6 +37,8 @@ Base after Base - DJVI
 Can't Let Go - DJVI
 Jumper - Waterflame
 Time Machine - Waterflame
+Cycles - DJVI
+Stay Inside Me - OcularNebula
 
 
 ---Song Remix Credits--- (this is only on the online credits because i might want to change the remixes between updates)
