@@ -480,3 +480,57 @@ slightly changed texture for checkbox
 
 ---1.12_04--- (02/14/2025)
 ​fixed objects not saving from the editor after reloading
+
+---1.2--- (03/07/2025)
+new level "Cycles", 8* Harder
+new level "Stay Inside Me", 14* Demon
+increased maximum level size to 10kb (old was 8kb)
+new gamemode "Gravity Ball"
+added option to save and load levels via clipboard (encrypted different to normal to prevent modification)
+added button to move levels to top or bottom of saved level list
+added player trail trigger
+added pages to the settings menu (allowing me to combine editor into one catagory)
+removed ship y-pos fix setting
+changed level lengths a little (tiny = 0-20s, short = 20-40s, medium = 40-60s, long = 60-100s, extra-long = 100s+)
+added setting disable player trail
+added loading screen that shows when waiting for things to download (like song remixes)
+added buttons on the titile screen to go to important pages for the game
+added 2 tile effects : "Reverse Flashlight", "Random Move"
+fixed the size of some objects being wrong
+changed a bunch of other textures around the game
+moved some graphics settings to an advanced page
+added support for more aspect ratios (16:10 and 21:9)
+level descriptions are now shown without clicking a description button
+added a prompt when launching the game telling the user to read the ToS
+moved delete button to level data screen instead of saved level screen
+changed layout slightly for statistics
+added button to editor to replace object ids
+changed a section in "Time Machine" otherwise it would have been impossible thanks to changes to gravity portals
+added total attempts to statistics
+added achivement completion to statistics
+updated terms of service to have actual text instead of saying "you can't sue me (or else you aren't a sigma)"
+fixed objects not placing when the mouse x or y is within 20 pixels of the screen center
+added keybinds for the editor to change editor scroll speed without leaving the editor (Page Up = 2x, Page Down = 0.5x)
+objects can now be placed or deleted in the editor by clicking enter
+made a couple more buttons around in menus to see the original location of a song
+description is now on the custom level playing screen instead of under a seperate button
+tiles with ids not usable within the editor are now filtered out when levels are loaded
+added a ton of hack prevention, admin tools, and more things to stop tomfoolery
+fixed freaky mode button saying "Freaky Freaky Mode" when the setting is enabled
+fixed place sound not playing when pasting objects
+moved account things to a settings catagory
+changed title background colour slider range to not allow 0 or 200 since those were wrong anyway
+default icons are now numbered
+added colour presets to the colour picker
+"Secret Coin" can no longer be placed over 3 times per level via the copy object button
+level background colour now defaults to 120 (similar the the gd default)
+fixed certain buttons still using y/n system instead of dropdowns
+the player now dies when touching the bottom or top of the level
+fixed background sometimes setting to the wrong colour on title screen
+changed textures for level and practice completion screens
+fixed level line not moving correctly at the start of levels
+fixed bottom line not appearing in ship mode
+added 2 more options for the "Cube" gamemode
+added 8 options for the "Gravity Ball" gamemode
+added 4 trails
+fixed other random bugs, too many to list
