@@ -534,3 +534,22 @@ added 2 more options for the "Cube" gamemode
 added 8 options for the "Gravity Ball" gamemode
 added 4 trails
 fixed other random bugs, too many to list
+
+---1.2_01--- (03/11/2025)
+trail no longer shows after level is completed
+fixed some issues with variable visiblity in settings (still broken but better)
+trail now properly rotates when enabled during vertical player movement
+fixed camera up button having a comically small hitbox
+fixed 1k total attempts trail being a cube for some reason?
+fixed 100 session attempts achivement showing the wrong text
+added option to set title background to black or white
+replace button in editor now clears extra properties
+colour coded the objects in the editor (red = kill, blue = solid, green = special, white = decor)
+left-wall buttons in the editor are now dark gray so they can be seen on a black background
+added setting to make the background darker (for those with sensitive eyes)
+added setting to hide the mouse cursor when in levels
+added setting to flip pause button to the top-left corner of the screen
+upgraded game security a small amount
+deleted a bunch of variables that were somehow ported from danny devito clicker
+custom song list is now automatically updated after game launch
+brought parts of trail closer together
