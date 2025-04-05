@@ -553,3 +553,16 @@ upgraded game security a small amount
 deleted a bunch of variables that were somehow ported from danny devito clicker
 custom song list is now automatically updated after game launch
 brought parts of trail closer together
+
+---1.21--- (04/04/2025)
+fixed some objects not correctly having tile effects disabled
+practice mode now mostly works as intended
+when in practice mode, restart button now restarts from last checkpoint, and the practice button sends to the level start (with confirmation)
+added button in editor that shows how far into the level / song an x position is (this could be done with the end trigger but was annoying)
+fixed icon selector being broken on controller
+disabled controller tooltips as they were broken in 17 billion different places
+help menu page buttons now function
+fixed level "Stay Inside Me" not having any info/help menu
+slightly lowered size of spike hitbox to fix practice bugs
+added setting to change title music to any file from jukehost (you can upload any mp3 there, it's faster than doing it on gd for sure)
+fixed bug that caused issues when clicking download button on custom levels using main level songs
