@@ -9,3 +9,5 @@
 4. If a user makes more than a singular account for any reason (although especially for ban evasion), then Oofio Software has the right to ban via IP instead of banning an account directly.
 
 5. If a user believes they were unfairly banned, ban appeals can be sent by any method found within the game or on the website. If no response is given within a reasonable amount of time (within 2 weeks) then the user is allowed to attempt contact by more than one method.
+
+6. If a user uploads content that is considered "NSFW" (this does not include simple lines of text, this means links to nsfw, nsfw art, etc.) then we have the right to ban said user on grounds of moderation
