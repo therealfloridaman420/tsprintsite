@@ -566,3 +566,21 @@ fixed level "Stay Inside Me" not having any info/help menu
 slightly lowered size of spike hitbox to fix practice bugs
 added setting to change title music to any file from jukehost (you can upload any mp3 there, it's faster than doing it on gd for sure)
 fixed bug that caused issues when clicking download button on custom levels using main level songs
+
+---1.21_01--- (04/20/2025)
+setting "Volume Fix" now defaults to enabled
+updated some menu textures to add detail
+background now has shading
+renamed "Copy Object" to "Copy State" to avoid confusing with "Copy & Paste"
+moved almost everything in level settings to make more space for mobile players to click them
+level name and description are now displayed in level settings
+added better word wrap to text engine, which is now used for descriptions
+fixed white background not correctly fading to black
+fixed bug causing the bpm to not show on custom songs
+fixed bug causing "Show Original" button to link to wrong location
+added "!" to the font
+fixed warning in level settings being hard to read due to button overlaying it
+fixed other random bugs with descriptions
+fixed bug that corrupted level files if header is over 200 characters (happens very easily)
+re-added snoop dogg to the credits
+fixed other random bugs
