@@ -584,3 +584,16 @@ fixed other random bugs with descriptions
 fixed bug that corrupted level files if header is over 200 characters (happens very easily)
 re-added snoop dogg to the credits
 fixed other random bugs
+
+---1.21_02--- (05/16/2025)
+added "Windows Alternate" version to itch.io which could help compatability
+fixed player being able to cling to objects above itself (below for upside-down gravity)
+changed level clipboard copy tool to let user directly copy/paste since it didn't work before on mobile devices
+fixed bpm showing up as "jamzgator" on custom songs
+added headers to extra level data
+added song offset to extra level data
+added warning that levels in the saved menu must be exported
+moved "Show Original" button to above the song box in editor
+removed "Update Song List" button from editor, since it happens when you launch the game anyway
+fixed player being translucent if you time clicking restart after dying
+updated a ton more textures (started in 1.21_01)
