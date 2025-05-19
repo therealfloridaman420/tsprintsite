@@ -10,6 +10,7 @@ Menu Textures - RobTop / me
 Cube Vectors - @jamZgator / me / @Rocketmix
 Tile Textures - @jamZgator / me
 Vectorized Font Characters - @Nyzonix
+Controller Tooltips - @Xelu's Controller & Key Prompts
 
 --Closed Beta Testers (pre b0.5)--
 @RCP_478 (YouTube)
