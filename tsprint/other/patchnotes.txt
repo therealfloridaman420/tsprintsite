@@ -597,3 +597,15 @@ moved "Show Original" button to above the song box in editor
 removed "Update Song List" button from editor, since it happens when you launch the game anyway
 fixed player being translucent if you time clicking restart after dying
 updated a ton more textures (started in 1.21_01)
+
+---1.21_03--- (05/18/2025)
+added text to death screen when getting a new best on a level
+added text to death screen showing current best when not getting new best
+added text to level complete screen showing previous best
+fixed max page count in saved levels saying 0 when there's no levels
+removed the data i accidentally left in the game in the last update
+changed a text line in song options menu
+fixed trail colour not being loaded if the second page of the icon selector is never loaded
+added controller detector into controller settings
+fixed inability to jump off of the "Textured Double Slab" block
+updated links on title screen
