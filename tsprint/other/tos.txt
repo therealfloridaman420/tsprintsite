@@ -1,6 +1,6 @@
 -Terms of Service-
 
-1. Oofio Software has the right to collect and store the IPv4 address of the user, this will be used in multiple places within the project.
+1. Oofio Software has the right to use the IP address (IPv4 Only) of the user, this will be used to detect if the user is IP banned.
 
 2. Any user caught attempting to modify or change any aspects of the project internally that cannot be modified without accessing the files can be banned.
 
@@ -10,4 +10,4 @@
 
 5. If a user believes they were unfairly banned, ban appeals can be sent by any method found within the game or on the website. If no response is given within a reasonable amount of time (within 2 weeks) then the user is allowed to attempt contact by more than one method.
 
-6. If a user uploads content that is considered "NSFW" (this does not include simple lines of text, this means links to nsfw, nsfw art, etc.) then we have the right to ban said user on grounds of moderation
+6. If a user uploads content that is considered "NSFW" (this does not include simple lines of text, this means links to nsfw, nsfw art, etc.) then Oofio Software has the right to ban said user on grounds of moderation
