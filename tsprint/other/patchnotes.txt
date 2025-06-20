@@ -609,3 +609,33 @@ fixed trail colour not being loaded if the second page of the icon selector is n
 added controller detector into controller settings
 fixed inability to jump off of the "Textured Double Slab" block
 updated links on title screen
+
+---1.22--- (06/20/2025)
+added copy/paste to the editor
+increased file size limit from 10kb to 12kb
+added systems for recording and playing level replays (these can be used for completion proof for 1.3 when accounts come out!)
+changed "Show FPS" to use text engine instead of scratch variable
+added "save and exit" function to the editor
+added setting for "Precise Percent" that rounds the level percentage to 0.1% instead of 1%
+fixed death marker spinning if dying with instant retry off and rotating before death
+re-added setting "Ship Y-Position Fix" from forever ago (this is massive, it's now in Graphics > Advanced)
+title music no longer restarts when leaving literally any menu
+menu music link text is now wrapped so it fits on the screen
+song list menu in settings now shows more info about each song aside from ids
+changed limit for saved levels from 24 to 12
+changed copied tile to flashing instead of always pure white
+fixed account button not moving to the correct location for 16:10 and 21:9
+fixed text in freaky mode not rendering correctly
+previous/current/new best popups no longer appear when in a replay or practice mode
+fixed some bugs with the pause screen
+removed ability to complete levels in practice mode
+coins can no longer be collected by the death marker (only reason i didn't fix this earlier is because it was funny)
+added marker to objects in editor to show if they can be edited
+removed image of michael jackson from game files (it was 77kb aka almost 8 maxed levels)
+fixed some text boxes still using the pre-1.12 system of typing y or n instead of dropdowns
+fixed random settings not clearing when resetting account
+removed some unused textures in the game files
+fixed editor log variable moving for a single frame when showing
+added keybind for tile select to help menu (sorry i forgot)
+resized some text in the pause menus
+fixed various other bugs there's actually so many i don't remember most of them
