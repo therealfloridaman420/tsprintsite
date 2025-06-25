@@ -639,3 +639,18 @@ fixed editor log variable moving for a single frame when showing
 added keybind for tile select to help menu (sorry i forgot)
 resized some text in the pause menus
 fixed various other bugs there's actually so many i don't remember most of them
+
+---1.22_01--- (06/24/2025)
+fixed editor log variable not displaying sometimes
+fixed song list only displaying song id 27 for who knows why
+fixed custom songs with ids above 27 just not existing?
+fixed default main level songs not loading upon game launch
+fixed screen center not being clickable in editor (it was fixed in an earlier version, then broke again)
+camera no longer allows you to see past level end when aspect ratio isn't 4:3
+account is now saved after level instead of before (old order made latest level save not go to account)
+removed "(beta)" text from replay button (actual system hasn't changed, the text was just ugly)
+moved default menu music text to reflect new size as of 1.22
+fixed ship appearing on death screen for no reason
+added "+" to the game font
+added text showing star increase on level complete screen
+added coming soon screen to main level list
