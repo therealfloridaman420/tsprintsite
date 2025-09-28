@@ -654,3 +654,6 @@ fixed ship appearing on death screen for no reason
 added "+" to the game font
 added text showing star increase on level complete screen
 added coming soon screen to main level list
+
+---1.22_02--- (09/28/2025)
+fixed game not working on macos by switching to electron
