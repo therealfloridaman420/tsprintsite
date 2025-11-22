@@ -657,3 +657,72 @@ added coming soon screen to main level list
 
 ---1.22_02--- (09/28/2025)
 fixed game not working on macos by switching to electron
+
+---1.23--- (11/21/2025)
+online servers have been created!
+added accounts (required to play, doesn't require any personal info)
+level percentage data is now saved to servers
+icon unlocks are now saved to servers
+fixed coins sometimes not saving correctly
+saved levels are now saved to servers
+decreased saved level limit from 12 to 8
+saved replays are now saved to servers
+decreased saved replay limit from 12 to 8
+added profiles (downloaded from servers)
+total attempt count is now saved to servers
+icons no longer take time to generate in icon selector
+changed star in font and online levels button to a simply better texture
+added options to Online Levels button for opening levels faster
+changed a bunch of hitbox sizes to reflect object sizes better
+player icons now appear on the title screen (currently only down-gravity cube)
+added "Practice Hitboxes" setting that enables a hitbox view in practice mode
+centered colour pick window so it no longer moves when selecting black or white
+top editor buttons now flip with "Flip Pause Button" setting
+added "?" to the font
+pressing enter during the death animation no longer shows the pause screen (seriously, how did this even happen? i still don't know)
+player trail dots no longer trigger death scripts (so before this dying while the trail was on-screen made you die 5 times)
+added a custom menu for some objects in editor instead of ask prompt (Mirror Portal, Player Trail Trigger)
+added system for server to send messages to clients
+fixed pause buffering bug (allowed you to clip through blocks on the frame after resuming game)
+fixed account button not disappearing after new best if instant retry is enabled
+copy/paste tool now uses swipe (makes it quicker to select)
+copy/paste tool now shows a message when paste point is (de)selected
+fixed "Toggle Buttons" config staying after reloading editor
+added "Custom Position" to Teleport Camera button
+added "Camera Guide" button to editor, shows where camera can see at any set point
+renamed "Song Position" to "Current Position"
+added new options to Current Position button (percentage is now shown if end trigger exists, and camera/tile position can be seen)
+clicking editor action (thing under delete button) now shows internal names for actions
+optimized editor tile select
+remade textures for blocks to increase detail and fill in corner gaps slightly
+hovering over the "Level Complete" text now hides the pause menu to allow for better endscreens
+removed change username button (it will come back soon, i just wanted to lighten the load for this update)
+added new difficulty "Unrated" (this is the new default until the difficulty is changed)
+added arrows at right edge of editor to change level length
+added a system for disabling most buttons at set times (Universal/Galactic Disable) to fix a ton of issues
+added proper menu for changing default background colour with preview
+fixed levels giving rewards when completed in practice mode
+suggested stars are now rounded upon leaving menu
+removed "max level length" menu when making levels
+changed some of the preset colours in the colour picker (turns out choosing colours while colourblind isn't a great idea!) 
+added a button in the main level selection screen to view extra level data
+fixed buttons from main levels working on update news screen
+added text in level settings that says suggested difficulty's name
+added screen shown when loading into levels to stop players from clicking several times
+added button to re-download the songs (fixes a bug that usually only affects the tw editor)
+updated update news screen (probably won't say every time i do this, it's gonna be most updates)
+fixed issues with the background of the update news screen... by hiding it
+fixed background of info menues not being long enough for 21:9 aspect ratio
+fixed controller buttons showing on coming soon screen
+added an "X" onto the death marker
+fixed menu not being changed when going to loading screens (could allow main level screen text to appear)
+added server information menu (found by holding shift when clicking Information in settings)
+added buttons in editor for mobile users to use the camera speed keys
+changed some textures to better support black backgrounds
+increased max length for editor password to 6 characters
+improved accuracy of practice music sync (it is now practically perfect! this means practice mode can be used to sync hard levels)
+added progress bar shown in levels
+updated text engine to include centering feature (might add to the public OSTE if people ask for it!)
+centered several lines of text around the game
+fixed blank space being visible when opening main level select screen in 4:3 aspect ratio
+fixed exit button being impossible to click in player colour picker in 4:3 aspect ratio
