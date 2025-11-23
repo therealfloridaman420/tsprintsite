@@ -726,3 +726,11 @@ updated text engine to include centering feature (might add to the public OSTE i
 centered several lines of text around the game
 fixed blank space being visible when opening main level select screen in 4:3 aspect ratio
 fixed exit button being impossible to click in player colour picker in 4:3 aspect ratio
+
+---1.23_01--- (11/23/2025)
+fixed icons not loading sometimes when opening game
+fixed non-windows devices being cooked
+fixed Pause Buffering v2 by IINeptuneII
+fixed level importing being unreliable
+client now attempts to reconnect automatically if disconnected from servers
+fixed other things i forgot to write down :P
