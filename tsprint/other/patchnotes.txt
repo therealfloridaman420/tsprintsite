@@ -734,3 +734,14 @@ fixed Pause Buffering v2 by IINeptuneII
 fixed level importing being unreliable
 client now attempts to reconnect automatically if disconnected from servers
 fixed other things i forgot to write down :P
+
+---1.23_02--- (12/05/2025)
+re-added "Edit Username" button, so you don't have to ask me to do it anymore :P
+rewrote entire code for backgrounds
+mirror portals now have a fade transition
+fixed replays saying modified when they're just not?
+fixed replays menu not loading correctly
+fixed various server-related bugs
+camera guide is now slightly translucent
+added a basis for precise speedhack (unused outside hack menu at the moment)
+
