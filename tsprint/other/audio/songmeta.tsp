@@ -31,5 +31,7 @@
 "lazopolis|jamzgator|150|FR2-w2ldmfo",
 "fourstep|jamzgator|150|mvebgJdgEiE",
 "eidolon fusion|jamzgator|150|gDNi3dnTQRo",
-"vinegar ballad|jamzgator|150|nHF-CYkax6o"
+"vinegar ballad|jamzgator|150|nHF-CYkax6o",
+"Theories for Nothing|VinnieK2008|162|xvFZjo5PgG0",
+"skibidi sigma|asoknasja|138|QyjrZGiv-zg"
 ]
