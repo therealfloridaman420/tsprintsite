@@ -753,3 +753,4 @@ fixed Title Background Colour getting defaulted to 67 (it wasn't on purpose) whe
 ---1.23_04--- (02/12/2026)
 remade 1.23_03's features off the code of 1.23_02 to fix a ton of bugs from a compiling issue (like the settings thing)
 fixed Title Background Colour getting set to attempt count
+fixed user objects not being saved to device correctly
