@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- ghost script remover by @nembence -->
+<!-- Put this code in a .html file eg. with Notepad, then open it with your browser -->
+<html>
+<head>
+<title>ghost script remover</title>
+</head>
+<body>
+<h1>ghost script remover</h1>
+<div>Paste the project.json here, click the button, then copy the fixed project.json</div>
+<div><textarea style="width: 400px; height: 300px;"></textarea></div>
+<div><input type="button" value="Fix project.json" onclick="onClick();"/></div>
+<script>
+// make errors show popups
+window.addEventListener("error", function(event) {
+    alert(event.error);
+});
+ 
+var textarea = document.querySelector("textarea");
+function onClick() {
+    let project=JSON.parse(textarea.value);
+    fixProject(project);
+    textarea.value=JSON.stringify(project);
+}
+ 
+function fixProject(project) {
+    for(let i=0; i<project.targets.length; i++) {
+        fixSprite(project.targets[i]);
+    }
+}
+function fixSprite(sprite) {
+    let referenced = new Set();
+    for(let id in sprite.blocks) {
+        let block = sprite.blocks[id];
+        if(block.topLevel) addToReferenced(sprite.blocks, id, referenced, new Set());
+    }
+    let count=0;
+    for(let id in sprite.blocks) {
+        if(!referenced.has(id)) {
+            delete sprite.blocks[id];
+            count++;
+        }
+    }
+    if(count>0) console.log("%d blocks removed from %s", count, sprite.name);
+}
+// adds all blocks in a script to the "referenced" set
+function addToReferenced(allBlocks, id, referenced, visited) {
+    if(id === null) return;
+    if(!(id in allBlocks)) return;
+    if(visited.has(id)) return; // prevent being stuck in an infinite loop
+    visited.add(id);
+    let block=allBlocks[id];
+    addToReferenced(allBlocks, block.next, referenced, visited);
+    if(typeof block.inputs === "object") {
+        for(let name in block.inputs) {
+            let input = block.inputs[name];
+            // an input can contain 2 blocks: a dragged-in and a shadow block
+            for(let i=0; i<input.length; i++) {
+                if(typeof input[i] === "string") {
+                    addToReferenced(allBlocks, input[i], referenced, visited);
+                }
+            }
+        }
+    }
+    referenced.add(id);
+}
+</script>
+</body>
+</html>
